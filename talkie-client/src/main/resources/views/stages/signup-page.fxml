@@ -16,7 +16,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.TextFlow?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" stylesheets="@style/login-style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" stylesheets="@style/login-style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <center>
       <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" opacity="0.8" prefHeight="607.0" prefWidth="658.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
          <center>
@@ -37,7 +37,7 @@
                      <children>
                         <VBox prefHeight="62.0" prefWidth="294.0">
                            <children>
-                              <Label text="Name :" textFill="WHITE">
+                              <Label text="Name : *" textFill="WHITE">
                                  <font>
                                     <Font name="Lucida Calligraphy Italic" size="17.0" />
                                  </font>
@@ -63,7 +63,7 @@
                         </VBox>
                         <VBox layoutX="10.0" layoutY="10.0" prefHeight="62.0" prefWidth="285.0">
                            <children>
-                              <Label text="Phone number :" textFill="#fff9f9">
+                              <Label text="Phone number : *" textFill="#fff9f9">
                                  <font>
                                     <Font name="Lucida Calligraphy Italic" size="17.0" />
                                  </font>
@@ -96,7 +96,7 @@
                      <children>
                         <VBox prefHeight="62.0" prefWidth="294.0">
                            <children>
-                              <Label text="Password:" textFill="WHITE">
+                              <Label text="Password: *" textFill="WHITE">
                                  <font>
                                     <Font name="Lucida Calligraphy Italic" size="17.0" />
                                  </font>
@@ -118,7 +118,7 @@
                         </VBox>
                         <VBox layoutX="10.0" layoutY="10.0" prefHeight="62.0" prefWidth="285.0">
                            <children>
-                              <Label text="Confirm password" textFill="WHITE">
+                              <Label text="Confirm password: *" textFill="WHITE">
                                  <font>
                                     <Font name="Lucida Calligraphy Italic" size="17.0" />
                                  </font>
@@ -150,7 +150,7 @@
                      <children>
                         <VBox prefHeight="62.0" prefWidth="294.0">
                            <children>
-                              <Label text="Email:" textFill="WHITE">
+                              <Label text="Email: *" textFill="WHITE">
                                  <font>
                                     <Font name="Lucida Calligraphy Italic" size="17.0" />
                                  </font>
@@ -172,7 +172,7 @@
                         </VBox>
                         <VBox layoutX="10.0" layoutY="10.0" prefHeight="62.0" prefWidth="285.0">
                            <children>
-                              <Label text="Country:" textFill="WHITE">
+                              <Label text="Country: *" textFill="WHITE">
                                  <font>
                                     <Font name="Lucida Calligraphy Italic" size="17.0" />
                                  </font>
@@ -196,7 +196,7 @@
                      <children>
                         <VBox prefHeight="62.0" prefWidth="294.0">
                            <children>
-                              <Label text="Birthdate:" textFill="WHITE">
+                              <Label text="Birthdate: *" textFill="WHITE">
                                  <font>
                                     <Font name="Lucida Calligraphy Italic" size="17.0" />
                                  </font>
@@ -225,7 +225,7 @@
                      <children>
                         <VBox prefHeight="62.0" prefWidth="294.0">
                            <children>
-                              <Label text="Gender:" textFill="WHITE">
+                              <Label text="Gender: *" textFill="WHITE">
                                  <font>
                                     <Font name="Lucida Calligraphy Italic" size="17.0" />
                                  </font>
